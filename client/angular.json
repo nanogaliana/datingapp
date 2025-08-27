@@ -8,10 +8,14 @@
       "schematics": {
         "@schematics/angular:component": {
           "path":"src",
-          "skipTests": false
+          "skipTests": true
         },
         "@schematics/angular:service": {
           "path":"src/core/services",
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "path":"src/core/guards",
           "skipTests": true
         }
       },
